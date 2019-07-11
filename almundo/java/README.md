@@ -1,8 +1,8 @@
 ## Supported tags and respective ```Dockerfile``` links
- * ```12-1.0.0``` [12-1.0.0/Dockerfile](https://github.com/almundocom/docker-images/tree/master/almundo/java/12-1.0.0)
- * ```11-1.0.1``` [11-1.0.1/Dockerfile](https://github.com/almundocom/docker-images/tree/master/almundo/java/11-1.0.1)
- * ```10-1.0.1``` [10-1.0.1/Dockerfile](https://github.com/almundocom/docker-images/tree/master/almundo/java/10-1.0.1)
- * ```9-1.0.1``` [9-1.0.1/Dockerfile](https://github.com/almundocom/docker-images/tree/master/almundo/java/9-1.0.1)
+ * ```12-1.0.1``` [12-1.0.0/Dockerfile](https://github.com/almundocom/docker-images/tree/master/almundo/java/12-1.0.1)
+ * ```11-1.0.2``` [11-1.0.1/Dockerfile](https://github.com/almundocom/docker-images/tree/master/almundo/java/11-1.0.2)
+ * ```10-1.0.2``` [10-1.0.1/Dockerfile](https://github.com/almundocom/docker-images/tree/master/almundo/java/10-1.0.2)
+ * ```9-1.0.2``` [9-1.0.1/Dockerfile](https://github.com/almundocom/docker-images/tree/master/almundo/java/9-1.0.2)
  * ```8-1.1.1```, ```latest```  [8-1.1.1/Dockerfile](https://github.com/almundocom/docker-images/tree/master/almundo/java/8-1.1.1)
  * ```8-1.0.1-lw``` [8-1.0.0-lw/Dockerfile](https://github.com/almundocom/docker-images/tree/master/almundo/java/8-1.0.1-lw)
 
