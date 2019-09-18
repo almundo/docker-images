@@ -13,6 +13,8 @@ WORKDIR /
 # Copy java startup script
 COPY startup.sh startup.sh
 
+RUN chmod 755 startup.sh
+
 CMD ["./startup.sh"]
 
 # Application port
