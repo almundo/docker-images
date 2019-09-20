@@ -1,4 +1,5 @@
 ## Supported tags and respective ```Dockerfile``` links
+ * ```13-1.0.0``` [13-1.0.0/Dockerfile](https://github.com/almundocom/docker-images/tree/master/almundo/java/13-1.0.0)
  * ```12-1.0.2``` [12-1.0.2/Dockerfile](https://github.com/almundocom/docker-images/tree/master/almundo/java/12-1.0.2)
  * ```11-1.0.2``` [11-1.0.2/Dockerfile](https://github.com/almundocom/docker-images/tree/master/almundo/java/11-1.0.2)
  * ```10-1.0.2``` [10-1.0.2/Dockerfile](https://github.com/almundocom/docker-images/tree/master/almundo/java/10-1.0.2)
