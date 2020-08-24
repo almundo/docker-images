@@ -1,4 +1,4 @@
-FROM openjdk:11
+FROM openjdk:11.0.8
 MAINTAINER Franco Morinigo <franco.morinigo@almundo.com>
 
 # Install jq
