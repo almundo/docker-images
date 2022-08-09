@@ -6,7 +6,7 @@
  * ```13-1.0.0``` [13-1.0.0/Dockerfile](https://github.com/almundocom/docker-images/tree/master/almundo/java/13-1.0.0)
  * ```12-1.0.2``` [12-1.0.2/Dockerfile](https://github.com/almundocom/docker-images/tree/master/almundo/java/12-1.0.2)
  * ```11-1.0.2``` [11-1.0.2/Dockerfile](https://github.com/almundocom/docker-images/tree/master/almundo/java/11-1.0.2)
- * ```Amazon Correto 11-alpine``` [11-alpine/Dockerfile](https://github.com/almundocom/docker-images/tree/master/almundo/java/amazoncorreto/11-alpine)
+ * ```Amazon Correto 11-alpine``` [11-alpine/Dockerfile](https://github.com/almundocom/docker-images/tree/master/almundo/java/amazoncorretto/11-alpine)
  * ```Eclipse Temurin 11-alpine``` [11-alpine/Dockerfile](https://github.com/almundocom/docker-images/tree/master/almundo/java/eclipse-temurin/11-alpine)
  * ```10-1.0.2``` [10-1.0.2/Dockerfile](https://github.com/almundocom/docker-images/tree/master/almundo/java/10-1.0.2)
  * ```9-1.0.2``` [9-1.0.2/Dockerfile](https://github.com/almundocom/docker-images/tree/master/almundo/java/9-1.0.2)
