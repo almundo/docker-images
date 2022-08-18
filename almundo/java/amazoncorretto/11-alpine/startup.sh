@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/ash
 APP_PATH="application"
 JAR=$(echo ${APP_PATH}/*jar)
 MAINCLASS=$(jq --raw-output '.mainClass' $APP_PATH/${ENV}/deploy-properties.json)
@@ -8,7 +8,7 @@ JVMARGS=$(jq --raw-output '.jvmArguments' $APP_PATH/${ENV}/deploy-properties.jso
 # NewRelic
 NEW_RELIC_ENABLED=$(jq --raw-output '.newRelicEnabled' $APP_PATH/${ENV}/deploy-properties.json)
 if [ $NEW_RELIC_ENABLED = "true"  ]; then
-  JVMARGS+="  -javaagent:${APP_PATH}/newrelic/newrelic.jar \
+  JVMARGS="$JVMARGS -javaagent:${APP_PATH}/newrelic/newrelic.jar \
     -Dnewrelic.config.file=${APP_PATH}/newrelic/newrelic.yml \
     -Dnewrelic.environment=${ENV}"
 fi
@@ -20,11 +20,11 @@ JXM_ENABLED=$(jq --raw-output '.jmxEnabled' $APP_PATH/${ENV}/deploy-properties.j
 
 if [ $DEBUG_ENABLED = "true"  ]; then
 
-  JVMARGS+="  -agentlib:jdwp=transport=dt_socket,address=*:${SPECIAL_PORT},server=y,suspend=n"
+  JVMARGS="$JVMARGS -agentlib:jdwp=transport=dt_socket,address=*:${SPECIAL_PORT},server=y,suspend=n"
 
 elif [ $JXM_ENABLED = "true" ]; then
 
-  JVMARGS+="  -Dcom.sun.management.jmxremote=true \
+  JVMARGS="$JVMARGS -Dcom.sun.management.jmxremote=true \
               -Dcom.sun.management.jmxremote.port=${SPECIAL_PORT} \
               -Dcom.sun.management.jmxremote.rmi.port=${SPECIAL_PORT} \
               -Dcom.sun.management.jmxremote.local.only=false \
